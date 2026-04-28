@@ -1,0 +1,87 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<link rel="shortcut icon" href="link logo.png" type="image/x-icon">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1 id="about">About Us</h1>
+
+    </section>
+
+    <!-- about us content -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest universal</h1>
+                <p>You're likely referring to Universal Studios Beijing, which is the world's
+                largest Universal Studios theme park by area, featuring unique lands like Kung
+                Fu Panda Land and the biggest Hogwarts Castle, making it a massive entertainment 
+                destination. It's a huge, innovative resort that blends Hollywood magic with Chinese 
+                culture, surpassing other parks in size and technology, including recent additions like 
+                the upcoming Universal's Epic Universe in Orlando which is also huge and highly anticipated. </p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="about.jpg">
+            </div>
+        </div>
+
+    </section>
+
+<!-- footer -->
+
+ <section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugit dolor nihil ullam fuga,<br>
+    quae sed quod? Voluptatem neque soluta excepturi eligendi enim ipsa fugit, est dolore ex quaerat nemo.</p>
+    <div class="icons">
+        <!-- <style>a.two:hover {font-size: 150%;}</style> -->
+        <a href="https://www.facebook.com/share/1Cp5k5Tnqk/"><i class="fa fa-facebook"></i></a>
+            <a href="https://x.com/vishalraghu1c96?t=x2zzKe5Rnn5hxkEXPhshnw&s=09"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/vishal_raghu1c_official?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa fa-instagram"></i></a>
+            <a href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
+    </div>
+    <a href="" class="footer-link"><p>made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p></a>
+ </section>
+
+
+
+
+
+
+    <!-- Javascript for toggle menue -->
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+    
+</body>
+</html> 

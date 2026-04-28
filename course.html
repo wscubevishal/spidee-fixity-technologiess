@@ -1,0 +1,112 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<link rel="shortcut icon" href="link logo.png" type="image/x-icon">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Courses</h1>
+    </section>
+    
+    
+<!---------- course ----------->
+    
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Intermediate , Degree , Post Graduation</p>
+        <div class="row">
+            <div class="course-col">
+                <a href="https://dictionary.cambridge.org/dictionary/english/intermediate"><h3>Intermediate</h3></a>
+                <p>We can teach dancers up to intermediate level here.
+                The website is intended for intermediate and advanced French-language students and teachers.
+                The Grade VI music syllabus is classed as 'intermediate', and Grade VII is called 'advanced'.</p>
+            </div>
+            <div class="course-col">
+                <a href="https://dictionary.cambridge.org/dictionary/english/degree"><h3>Degree</h3></a>
+                <p>degree of This job demands a high degree of skill.
+                There isn't the slightest degree of doubt that he's innocent.
+                I have to warn you that there's a degree of (= some) danger involved in this.</p>
+            </div>
+            <div class="course-col">
+                <a href="https://dictionary.cambridge.org/dictionary/english/post-graduation"><h3>Post Graduation</h3></a>
+                <p>in or relating to the time after you finish a degree or other course of study:
+                He was not clear about his post-graduation plans.
+                For medical students in this country, the government remains the sole employer postgraduation.</p>
+            </div>
+        </div>
+    </section>
+    
+<!---------- Facilities ---------->
+    
+    <section class="facility">
+        <h1>Our Facilities</h1>
+        <p>World Class Library , Largest Play Ground , Tasty and Healthy Food</p>
+            <div class="row">
+                <div class="facility-col">
+                    <img src="library.png">
+                    <a href="https://www.thebestcolleges.org/amazing-libraries/"><h3>World Class Library</h3></a>
+                    <p>With education as our focus here at The Best Colleges, we obviously love libraries. College libraries, public libraries, private libraries — whatever and wherever they are, we love them all. For those of you not "of a certain age," a library is a quiet building that houses tons of books and reference materials, typically dating back to Ye Olde Pre-Internet</p>
+                </div>
+                <div class="facility-col">
+                    <img src="basketball.png">
+                    <a href="https://superiorplay.com/blog/worlds-largest-playgrounds/?srsltid=AfmBOoo3jGLswr_3IjMhvDBu9-F-duJyQexHkolZWK3P55cx1meK1VoA"><h3>Largest Play Ground</h3></a>
+                    <p>When you’re a kid, nothing beats a day at the park. You can feel the excitement from your kids as they race to the swings or zoom down the slide. You may even feel the urge to release your inner child when you visit one of the most inspiring or massive playgrounds in the world.</p>
+                </div>
+                <div class="facility-col">
+                    <img src="cafeteria.png">
+                    <a href="https://www.healthline.com/nutrition/50-super-healthy-foods"><h3>Tasty and Healthy Food</h3></a>
+                    <p>Eating various nutritious foods, including fruit, vegetables, nuts, seeds, and lean protein, can help support your overall health.
+                    Many foods are both healthy and tasty. By filling your plate with fruits, vegetables, quality protein sources, and other whole foods, you’ll have meals that are colorful, versatile, and good for you.</p>
+                </div>
+            </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>You're likely referring to Universal Studios Beijing, which is the world's<br>
+        largest Universal Studios theme park by area, featuring unique lands like Kung....</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/share/1Cp5k5Tnqk/"><i class="fa fa-facebook"></i></a>
+            <a href="https://x.com/vishalraghu1c96?t=x2zzKe5Rnn5hxkEXPhshnw&s=09"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/vishal_raghu1c_official?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa fa-instagram"></i></a>
+            <a href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>    
